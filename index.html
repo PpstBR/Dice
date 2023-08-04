@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dices</title>
+    <script src="index.js" defer></script>
+    <style>
+        body {
+            background-color: #e8d8b8;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .title {
+            color: #8c1c13;
+        }
+
+        .button {
+        background-color: #bca57e;
+        border: 2px solid #714f2b;
+        color: #fff;
+        padding: 10px 20px;
+        margin: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        }
+
+        .button:hover {
+        background-color: #714f2b;
+        }
+        .roll {
+            font-family: fantasy;
+            color: #8c1c13;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <h1 class="speach">SELECIONE O SEU DADO</h1>
+        <button class="button D20">D20</button>
+        <button class="button D4">D4</button>
+        <button class="button D6">D6</button>
+        <button class="button D8">D8</button>
+        <Button class="button D12">D12</Button>
+        <button class="button D10">D10</button>
+        <button class="button D100">D100</button>
+        <input type="number" id="perdice">
+        <button type="submit" class="enter">Enter</button>
+        <div id="result"></div>
+    </ol>
+</body>
+</html>
